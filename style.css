@@ -1,0 +1,110 @@
+.imagemJogo {
+    width: 16rem;
+}
+
+.buttonPesquisar {
+    margin-bottom: 1rem;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 2vh;
+    padding: 1vh;
+    color: white;
+    transition-duration: 1s;
+}
+
+.buttonPesquisar:hover {
+    background-color: lightblue;
+    color: black;
+
+}
+
+.generoJogo {
+    display: none;
+}
+
+.classificacao {
+    display: none;
+}
+
+.desenvolvedora {
+    display: none;
+}
+
+.descricao {
+    display: none;
+    width: 90%;
+    height: 20rem;
+}
+
+#informacoes {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr;
+}
+
+.buttonPro {
+    visibility: hidden;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 2vh;
+    padding: 1vh;
+    color: white;
+    transition-duration: 1s;
+}
+
+.buttonPro:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.buttonAnte {
+    visibility: hidden;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2vh;
+    padding: 1vh;
+    color: white;
+    transition-duration: 1s;
+}
+
+.buttonAnte:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+.nomeGame {
+    font-weight: bold;
+}
+
+
+
+@media (max-width:600px) {
+    #informacoes {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .descricao {
+        order: 5;
+      }
+}
+
+@media (min-width:602px) and (max-width:850px) {
+    #informacoes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 8vh 37vh;
+      }
+      .classificacao{
+        margin-top: 38.6vh;
+      }
+    
+}
+@media (min-width:773px) and (max-width:850px){
+  
+    .classificacao{
+        margin-top: 26.6vh;
+      }
+      .descricao{
+        width: 100%;
+      }
+}
