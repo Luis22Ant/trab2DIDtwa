@@ -41,7 +41,7 @@ buttonPesquisar.addEventListener('click', function () {
                 var valor = i;
             }
         }
-        imagem.src = './img/' + corpo.jogos[valor].imagem;
+        imagem.src = corpo.jogos[valor].imagem;
         genero.innerHTML += corpo.jogos[valor].gênero;
         classificacao.innerHTML += corpo.jogos[valor].classificação;
         desenvolvedora.innerHTML += corpo.jogos[valor].desenvolvedora;
@@ -64,7 +64,7 @@ buttonPesquisar.addEventListener('click', function () {
             desenvolvedora.innerHTML = "<b>Desenvolvedora: </b> ";
             descricao.innerHTML = "<b>Descrição: </b>";
 
-            imagem.src = './img/' + corpo.jogos[valor].imagem;
+            imagem.src = corpo.jogos[valor].imagem;
             genero.innerHTML += corpo.jogos[valor].gênero;
             classificacao.innerHTML += corpo.jogos[valor].classificação;
             desenvolvedora.innerHTML += corpo.jogos[valor].desenvolvedora;
@@ -81,7 +81,7 @@ buttonPesquisar.addEventListener('click', function () {
             desenvolvedora.innerHTML = "<b>Desenvolvedora: </b> ";
             descricao.innerHTML = "<b>Descrição: </b>";
 
-            imagem.src = './img/' + corpo.jogos[valor].imagem;
+            imagem.src = corpo.jogos[valor].imagem;
             genero.innerHTML += corpo.jogos[valor].gênero;
             classificacao.innerHTML += corpo.jogos[valor].classificação;
             desenvolvedora.innerHTML += corpo.jogos[valor].desenvolvedora;
