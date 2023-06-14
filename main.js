@@ -1,14 +1,47 @@
+import {
+    buttonPesquisar,
+    buttonMode,
+    paragrafo,
+    buttonProximo,
+    buttonAnterior,
+    input,
+    nomeJogo,
+    imagem,
+    genero,
+    classificacao,
+    desenvolvedora,
+    descricao,
+    body
+  } from './elementos.js';
+
+var controle = 0;
+
+buttonMode.addEventListener('click', function () {
+    if (controle == 0) {
+        paragrafo.forEach(item => {
+            item.style.color = 'white';
+        })
+        body.style.backgroundColor = 'black';
+        nomeJogo.style.color = 'white';
+        buttonMode.innerText = 'Modo Claro';
+        buttonMode.innerHTML = 'Modo Claro <i class="fa-regular fa-sun"></i>';
+        imagem.style.boxShadow = 'none';
+        controle++;
+    } else
+        if (controle == 1) {
+            paragrafo.forEach(item => {
+                item.style.color = 'black';
+            })
+            body.style.backgroundColor = 'white';
+            nomeJogo.style.color = 'black';
+            buttonMode.innerText = 'Modo Escuro'
+            buttonMode.innerHTML = 'Modo Escuro <i class="fa-solid fa-moon"></i>'
+            imagem.style.boxShadow = '10px 12px 6px 6px gray';
+            controle--;
+        }
 
 
-const buttonPesquisar = document.getElementById('buttonPesquisar');
-const buttonProximo = document.getElementById('buttonProximo');
-const buttonAnterior = document.getElementById('buttonAnterior');
-const input = document.getElementById('textoJogo');
-const imagem = document.getElementById('gameImagem');
-const genero = document.querySelector('#informacoes .generoJogo');
-const classificacao = document.querySelector('#informacoes .classificacao');
-const desenvolvedora = document.querySelector('#informacoes .desenvolvedora');
-const descricao = document.querySelector('#informacoes .descricao');
+})
 input.addEventListener('click', function () {
     input.value = "";
 })
@@ -37,7 +70,7 @@ buttonPesquisar.addEventListener('click', function () {
             return;
         }
         for (var i = 0; i < corpo.jogos.length; i++) {
-            if (input.value == corpo.jogos[i].nome) {
+            if (input.value == corpo.jogos[i].nome || input.value == corpo.jogos[i].nomeMin) {
                 var valor = i;
             }
         }
@@ -53,6 +86,7 @@ buttonPesquisar.addEventListener('click', function () {
         imagem.style.display = 'block';
         buttonAnterior.style.visibility = 'visible';
         buttonProximo.style.visibility = 'visible';
+
 
         buttonProximo.addEventListener('click', function () {
             if (valor == 9) {

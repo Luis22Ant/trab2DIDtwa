@@ -2,6 +2,7 @@
   "jogos": [
     {
       "nome": "God of War",
+      "nomeMin": "god of war",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Santa Monica Studio",
       "classificação": "18+",
@@ -10,6 +11,7 @@
     },
     {
       "nome": "The Last of Us Part 1",
+      "nomeMin": "the last of us part 1",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Naughty Dog",
       "classificação": "18+",
@@ -18,6 +20,7 @@
     },
     {
       "nome": "Spider Man",
+      "nomeMin": "spider man",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Insomniac Games",
       "classificação": "16+",
@@ -25,7 +28,8 @@
       "descricao":"Marvel's Spider-Man é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment. É baseado nos personagens, mitologia e adaptações em outras mídias do super-herói de histórias em quadrinhos Homem-Aranha da Marvel Comics, tendo sido lançado exclusivamente para PlayStation 4 em 7 de setembro de 2018. Na história, o criminoso super-humano Senhor Negativo organiza um plano para se vingar do prefeito Norman Osborn e assumir o controle do submundo criminal de Nova Iorque. O Homem-Aranha precisa proteger a cidade assim que o Senhor Negativo ameaça lançar um vírus mortal por toda a área, ao mesmo tempo que é forçado a lidar com seus problemas pessoais como Peter Parker.A jogabilidade é apresentada a partir de uma perspectiva em terceira pessoa, com o foco principal ficando na movimentação e habilidades de combate do Homem-Aranha."
     },
     {
-      "nome": "Uncharted 4: A Thief's End",
+      "nome": "Uncharted 4",
+      "nomeMin": "uncharted 4",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Naughty Dog",
       "classificação": "16+",
@@ -34,52 +38,58 @@
     },
     {
       "nome": "Horizon Forbidden West",
-      "gênero": "Ação e Aventura",
+      "nomeMin": "horizon forbidden west",
+      "gênero": "RPG de ação",
       "desenvolvedora": "Guerrilla Games",
       "classificação": "16+",
       "imagem":"horizonForbiden.jpg",
-      "descricao":"Horizon Forbidden West é um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment. Foi lançado em 18 de fevereiro de 2022 para PlayStation 4 e PlayStation 5. É a sequência de Horizon Zero Dawn, de 2017, sendo ambientada em um mundo aberto pós-apocalíptico com uma perspectiva em terceira pessoa. O jogador controla a protagonista Aloy, uma caçadora de máquinas, enquanto viaja para uma América ocidental devastada por tempestades maciças e máquinas mortais."
+      "descricao":"Horizon Forbidden West é um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment. Foi lançado em 18 de fevereiro de 2022 para PlayStation 4 e PlayStation 5. É a sequência de Horizon Zero Dawn, de 2017, sendo ambientada em um mundo aberto pós-apocalíptico com uma perspectiva em terceira pessoa. O jogador controla a protagonista Aloy, uma caçadora de máquinas, enquanto viaja para uma América ocidental devastada por tempestades maciças e máquinas mortais.Horizon Forbidden West é uma sequência de Horizon Zero Dawn, de 2017.Ele foi desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment para os consoles PlayStation 4 e PlayStation 5.Horizon Forbidden West é um jogo eletrônico de RPG de ação com uma perspectiva em terceira pessoa. Os jogadores controlam Aloy, uma caçadora em um mundo governado por máquinas."
     },
     {
       "nome": "Mortal Kombat 1",
+      "nomeMin": "mortal kombat 1",
       "gênero": "Luta",
       "desenvolvedora": "NetherRealm Studios",
       "classificação": "18+",
       "imagem":"mk1.jpg",
-      "descricao":"Após cessar o suporte para Mortal Kombat 11, a NetherRealm Studios revelou que estava trabalhando em um novo projeto em julho de 2021. O dublador de Johnny Cage, Andrew Bowen, indicou que a décima segunda parcela estava em desenvolvimento em um tweet excluído às pressas. [2]Em 18 de maio de 2023, a NetherRealm Studios anunciou Mortal Kombat 1 com data de lançamento para 19 de setembro de 2023. É uma reinicialização da série e se passa na linha do tempo da Nova Era criada por Liu Kang depois que ele alcançou a divindade em Mortal Kombat 11 em 2019. [3] A NetherRealm Studios também anunciou que aqueles que encomendarem qualquer versão do jogo para PS5 e Xbox Series também receberão acesso a uma versão beta em agosto e, após o lançamento do jogo, a NetherRealm fornecerá cross-play e cross-progression."
+      "descricao":"Após cessar o suporte para Mortal Kombat 11, a NetherRealm Studios revelou que estava trabalhando em um novo projeto em julho de 2021. O dublador de Johnny Cage, Andrew Bowen, indicou que a décima segunda parcela estava em desenvolvimento em um tweet excluído às pressas.Em 18 de maio de 2023, a NetherRealm Studios anunciou Mortal Kombat 1 com data de lançamento para 19 de setembro de 2023. É uma reinicialização da série e se passa na linha do tempo da Nova Era criada por Liu Kang depois que ele alcançou a divindade em Mortal Kombat 11 em 2019.A NetherRealm Studios também anunciou que aqueles que encomendarem qualquer versão do jogo para PS5 e Xbox Series também receberão acesso a uma versão beta em agosto e, após o lançamento do jogo, a NetherRealm fornecerá cross-play e cross-progression."
     },
     {
       "nome": "Fifa 23",
+      "nomeMin": "fifa 23",
       "gênero": "Esporte/Simulação",
       "desenvolvedora": "Eletronic Arts",
       "classificação": "Livre",
       "imagem":"fifa23.jpg",
-      "descricao":"FIFA 23 é um jogo eletrônico de simulação de futebol desenvolvido pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e foi lançado dia 30 de setembro de 2022, para Xbox Series S/X, Xbox One, PlayStation 5, PlayStation 4 e Microsoft Windows.[1]O jogador Kylian Mbappé, do Paris Saint-Germain, e a jogadora Sam Kerr, do Chelsea, serão os protagonistas. É a primeira vez que uma mulher aparece na capa global do jogo eletrônico.[2]"
+      "descricao":"FIFA 23 é um jogo eletrônico de simulação de futebol desenvolvido pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e foi lançado dia 30 de setembro de 2022, para Xbox Series S/X, Xbox One, PlayStation 5, PlayStation 4 e Microsoft Windows.O jogador Kylian Mbappé, do Paris Saint-Germain, e a jogadora Sam Kerr, do Chelsea, serão os protagonistas. É a primeira vez que uma mulher aparece na capa global do jogo eletrônico.FIFA 23 contará com diversos modos de jogo, são eles: Modo Carreira, Ultimate Team, Pro Clubs e Volta Football. O jogo também será o primeiro da série a contar com a tecnologia de crossplay no lançamento. Isto significa que jogadores de Xbox Series, PlayStation e Microsoft Windows poderão competir entre si.Conteúdos sobre a Copa do Mundo FIFA de 2022 também serão adicionados ao jogo, incluindo jogadores, estádios e times de futebol."
 
     },
     {
       "nome": "Dragon Ball Z Kakarot",
+      "nomeMin": "dragon ball z kakarot",
       "gênero": "RPG de ação",
       "desenvolvedora": "CyberConnect2",
       "classificação": "12+",
       "imagem":"dbz.jpg",
-      "descricao":"Dragon Ball Z: Kakarot (ドラゴンボールZ カカロット Doragon Bōru Zetto Kakarotto?) é um jogo eletrônico de RPG de ação em mundo aberto desenvolvido pela CyberConnect2 e publicado pela Bandai Namco Entertainment.[1] Baseado na franquia Dragon Ball, foi lançado em 17 de janeiro de 2020[2] para Microsoft Windows, PlayStation 4 e Xbox One e no dia 24 de setembro de 2021 para Nintendo Switch.[3][4][5] O criador de Dragon Ball, Akira Toriyama projetou Bonyū (ボニュー?), uma nova personagem original para o jogo.[6] O jogo vendeu mais de 1,5 milhão de cópias em sua primeira semana de lançamento, tornando-se um grande sucesso.[7] Até março de 2020, o jogo já vendeu mais de 2 milhões de cópias mundialmente."
+      "descricao":"Dragon Ball Z: Kakarot (ドラゴンボールZ カカロット Doragon Bōru Zetto Kakarotto?) é um jogo eletrônico de RPG de ação em mundo aberto desenvolvido pela CyberConnect2 e publicado pela Bandai Namco Entertainment.Baseado na franquia Dragon Ball, foi lançado em 17 de janeiro de 2020[2] para Microsoft Windows, PlayStation 4 e Xbox One e no dia 24 de setembro de 2021 para Nintendo Switch.O criador de Dragon Ball, Akira Toriyama projetou Bonyū (ボニュー?), uma nova personagem original para o jogo.O jogo vendeu mais de 1,5 milhão de cópias em sua primeira semana de lançamento, tornando-se um grande sucesso.Até março de 2020, o jogo já vendeu mais de 2 milhões de cópias mundialmente."
     },
     {
       "nome": "Spider Man Miles Morales",
+      "nomeMin": "spider man miles morales",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Insomniac Games",
       "classificação": "16+",
       "imagem":"spidermanMiles.jpg",
-      "descricao":"Marvel's Spider-Man: Miles Morales é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment para o PlayStation 4 e PlayStation 5. É baseado nos personagens, mitologia e adaptações em outras mídias dos personagens de histórias em quadrinhos Miles Morales e Homem-Aranha da Marvel Comics, tendo sido lançado para PlayStation 4 e como um título de lançamento do PlayStation 5 em novembro de 2020.[1][2][3]O jogo é a uma expansão autônoma de Spider-Man,[4] de 2018. E retrata a luta de Miles para equilibrar os deveres de sua personalidade civil e do Homem-Aranha quando sua nova casa, Harlem, está ameaçada por uma guerra entre a Roxxon Energy Corporation e o exército criminoso de alta tecnologia do Tinkerer, o Underground."
+      "descricao":"Marvel's Spider-Man: Miles Morales é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment para o PlayStation 4 e PlayStation 5. É baseado nos personagens, mitologia e adaptações em outras mídias dos personagens de histórias em quadrinhos Miles Morales e Homem-Aranha da Marvel Comics, tendo sido lançado para PlayStation 4 e como um título de lançamento do PlayStation 5 em novembro de 2020.O jogo é a uma expansão autônoma de Spider-Man de 2018. E retrata a luta de Miles para equilibrar os deveres de sua personalidade civil e do Homem-Aranha quando sua nova casa, Harlem, está ameaçada por uma guerra entre a Roxxon Energy Corporation e o exército criminoso de alta tecnologia do Tinkerer, o Underground."
     },
     {
       "nome": "The Last of Us Part 2",
+      "nomeMin": "the last of us part 2",
       "gênero": "Ação e Aventura",
       "desenvolvedora": "Naughty Dog",
       "classificação": "18+",
       "imagem":"theLast2.png",
-      "descricao":"The Last of Us Part II é um jogo de ação e aventura de 2020 desenvolvido pela Naughty Dog e publicado pela Sony Interactive Entertainment para o PlayStation 4 . Situado cinco anos após The Last of Us (2013), o jogo se concentra em dois personagens jogáveis ​​em umEstados Unidos pós-apocalíptico cujas vidas se entrelaçam: Ellie , que parte em vingança por um assassinato, e Abby , um soldado que se envolve em um conflito entre sua milícia e um culto religioso. O jogo usa uma perspectiva de terceira pessoa ; o jogador deve lutar contra inimigos humanos e criaturas canibalísticas semelhantes a zumbis com armas de fogo,armas improvisadas e discrição ."
+      "descricao":"The Last of Us Part II é um jogo de ação e aventura jogado a partir de uma perspectiva em terceira pessoa com elementos do gênero survival horror .O jogador atravessa ambientes pós-apocalípticos , como edifícios e florestas para avançar na história. O jogador pode usar armas de fogo, armas improvisadas e furtividade para se defender contra humanos hostis e criaturas canibais infectadas por uma cepa mutante do fungo Cordyceps .O controle alterna intermitentemente entre Ellie e Abby ; o jogador também controla brevemente Joel na sequência de abertura.A natureza ágil do personagem do jogador introduz elementos de plataforma , permitindo ao jogador pular e escalar para atravessar ambientes e ganhar vantagens durante o combate.O jogador pode quebrar objetos de vidro, como janelas, para acessar certas áreas ou obter suprimentos."
     }
   ]
 }

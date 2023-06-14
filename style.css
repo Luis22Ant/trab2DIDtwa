@@ -1,5 +1,8 @@
 .imagemJogo {
     width: 16rem;
+    border: 7px solid black;
+    display: none;
+    box-shadow: 10px 12px 6px 6px gray;
 }
 
 .buttonPesquisar {
@@ -73,6 +76,9 @@
 
 .nomeGame {
     font-weight: bold;
+}
+#buttonMode{
+    text-align: right;
 }
 
 
