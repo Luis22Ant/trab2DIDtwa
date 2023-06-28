@@ -11,7 +11,8 @@
         classificacao,
         desenvolvedora,
         descricao,
-        body
+        body,
+        footer,
       };
 
 
@@ -28,3 +29,4 @@ const genero = document.querySelector('#informacoes .generoJogo');
 const classificacao = document.querySelector('#informacoes .classificacao');
 const desenvolvedora = document.querySelector('#informacoes .desenvolvedora');
 const descricao = document.querySelector('#informacoes .descricao');
+const footer = document.querySelector('footer');
