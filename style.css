@@ -1,3 +1,58 @@
+/*Explicação da escolha das fontes: 
+Escolhemos o estilo de fonte sem-serif para nosso header e main afim de combinar bem com a proposta
+do site escolhido, pois fonte sem-serif e de especial a ''Comfortaa'' conforme escolhemos,
+trás uma estética minimalista e moderna combinando com a atmosfera dos jogos mais recentes  e com o
+alvo do público jovem que propõe o nosso site, além de trazer legiblidade e clareza, onde os usuários 
+podem precisar ler rapidamente a descrição de jogos, tornando esta legibilidade essencial em nosso trabalho.
+
+Sobre a mudança e escolha de fonte serifadas para nosso footer onde destacamos os nomes dos responsáveis
+pela criação do trabalho basicamente se deve por tal estilo de fonte trazer características de confiabilidade
+contribuindo para sensação de autencidade dos criadores, pois fontes serifadas vem sendo usadas a bastante 
+tempo em mídias impressas tradicionais, como revistas por exemplo. Essa associação pode transmitir
+uma sensação de tradição e confiabilidade conforme relatado.
+
+Explicação da escolha das cores:
+Após aprofundarmos o estudo na teoria de cores, decidimos escolher o estilo de harmonia de cores intercaladas,
+onde em nossos botões decidimos as cores por conta de trazer um maior contraste se comparado ao das cores
+análogas, trazendo consigo um ponto focal aos usuários ao visualizar os botões.
+Sobre a escolha da cor principal azul levamos em conta a associação com tranquilidade e confiança, pois 
+tal cor é frequentemente associada a qualidades como tranquilidade, confiança e serenidade. Em nosso trabalho
+onde os usuários podem estar procurando uma experiência divertida,o uso da cor azul pode criar
+uma atmosfera acolhedora e agradável, transmitindo uma sensação de confiança e segurança ao ler informações
+dos jogos.
+Além disso, a cor azul está associada diretamente com a cor principal da empresa 'Playstation', onde 
+o assunto escolhido está ligado diretamente com tal empresa.
+
+Outras justificativas:
+Ênfase:
+O principal ponto focal do nosso trabalho, o usuário ao entrar em nosso site já direciona sua atenção
+na imagem da capa do jogo, se tratando do principal objetivo da página ao relacionar com sua descrição
+e do elemento com maior tamanho em todo site.
+
+Equilibrío:
+Escolhemos o equilibrío assimétrico, direcionando a atenção dos visitantes para o conteúdo principal,
+como a descrição e a imagem relacionada. Ao posicionarmos os elementos de forma assimétrica, tomando como base
+o header,main e footer, tentamos criar um contraste visual que destaca todos elementos e os torna 
+mais proeminentes, atraindo a atenção dos usuários de maneira mais efetiva.
+
+Unidade: 
+O princípio de unidade em nosso site está razoável pois todos elementos estão interligados, 
+a imagem, com sua descrição torna um estilo coeso e complementar, tornando o site com design 
+harmônico evitando a sensação de desconexão do usuário.
+
+Ritmo:
+O ritmo de nosso trabalho está criando uma hierarquia visual clara com base no seu objetivo,
+ao utilizar o tamanho da imagem  e espaçamento dos elementos relacionados, que são, descrição,classificação
+e desenvolvedora direciona o olhar para os pontos importantes propostos, destacando também
+informações cruciais, como os botões no início do site, criando a sensação de um ritmo e fluidez agradável
+ao mudar as informações dos jogos de acordo com cada um.
+
+Proporção:
+A proporção está adequada, nosso trabalho em nossa visão está criando uma relação equilibrada entre todos
+elementos, dando destaque ao conteúdo mais importante, por exemplo, a descrição e a imagem do jogo está 
+ocupando uma proporção maior do espaço, garantindo  que essas informações estejam claramente 
+visíveis e se destaquem para os visitantes. 
+*/
 body {
     margin: 0;
     height: 100%;
@@ -13,11 +68,11 @@ body {
 
 .buttonPesquisar {
     margin-bottom: 1rem;
-    background-color: rgb(3, 3, 41);
-    border: 1px solid blue;
+    background-color: rgb(182, 248, 107);
+    border: 2px solid rgb(13, 13, 14);
     border-radius: 2vh;
     padding: 1vh;
-    color: white;
+    color: black;
     transition-duration: 1s;
 }
 
@@ -57,11 +112,8 @@ header {
 
 }
 
-main {
-    grid-area: main;
+.main {
     font-family: 'Comfortaa', sans-serif;
-    line-height: 1.5;
-
 }
 
 /* footer {
@@ -91,6 +143,7 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    font-family: serif;
 }
 
 footer label {
@@ -103,7 +156,7 @@ footer label {
 
 .buttonPro {
     background-color: green;
-    border: 1px solid green;
+    border: 2px solid rgb(13, 14, 13);
     border-radius: 2vh;
     padding: 1vh;
     color: white;
@@ -117,12 +170,13 @@ footer label {
 
 .buttonAnte {
     background-color: red;
-    border: 1px solid red;
+    border: 2px solid rgb(17, 14, 14);
     border-radius: 2vh;
     padding: 1vh;
     color: white;
     transition-duration: 1s;
     margin-left: 1vh;
+    margin-bottom: 4px;
 }
 
 .buttonAnte:hover {
@@ -172,6 +226,9 @@ footer label {
     footer {
         padding-left: 0;
         position: relative;
+        padding-bottom: 5vh;
+        padding-top: 3vh;
+        margin-top: 22vh;
     }
 }
 
